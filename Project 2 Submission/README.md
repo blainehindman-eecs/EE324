@@ -1,4 +1,4 @@
-#Project 2 - Creating custom IP for ZYNQ's processing system
+# Project 2 - Creating custom IP for ZYNQ's processing system
 
 YouTube Links:
 Part 1-
