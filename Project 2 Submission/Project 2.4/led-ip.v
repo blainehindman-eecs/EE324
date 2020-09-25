@@ -401,12 +401,14 @@
 
 	// Add user logic here
 	//enable all led
-    assign led = slv_reg0[3:0];
-    //map coresponidng LED individually 
-    assign led[0] = slv_reg0[0];
-    assign led[1] = slv_reg0[1];
-    assign led[2] = slv_reg0[2];
-    assign led[3] = slv_reg0[3];
+	//Parts 1,2,3,4
+	//enable all led
+	assign led = slv_reg0[3:0];
+	//map coresponidng LED individually 
+	assign led[0] = slv_reg0[0] & slv_reg1[0];
+	assign led[1] = slv_reg0[1] & slv_reg1[1];
+	assign led[2] = slv_reg0[2] & slv_reg1[2];
+	assign led[3] = slv_reg0[3] & slv_reg1[3];
     
 	// User logic ends
 
