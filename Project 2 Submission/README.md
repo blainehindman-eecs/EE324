@@ -1,6 +1,9 @@
 # Project 2 - Creating custom IP for ZYNQ's processing system
-First Verilog File bus:
-wire led
+
+Verilog Assign 1-4:  
+"output wire [3:0] led,"
+Verilog Assign Bonus:
+output wire [5:0] led,
 
 YouTube Links:
 
