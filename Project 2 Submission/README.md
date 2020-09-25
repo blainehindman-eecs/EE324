@@ -4,7 +4,7 @@ Verilog Assign 1-4: "output wire [3:0] led,"
 
 Verilog Assign Bonus: "output wire [5:0] led,"
 
-YouTube Link - 
+YouTube Link - https://youtu.be/3kxUPH9nCcM
 
 Part 1- Verify the demo project
 
