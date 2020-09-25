@@ -403,24 +403,18 @@
 	end    
 
 	// Add user logic here
-	//Parts 1,2,3,4
-	//enable all led
-    //assign led = slv_reg0[3:0];
-    //map coresponidng LED individually 
-    //assign led[0] = slv_reg0[0];
-    //assign led[1] = slv_reg0[1];
-    //assign led[2] = slv_reg0[2];
-    //assign led[3] = slv_reg0[3];
     
-    //RGB LED Bonus
-    assign led = slv_reg0[5:0];
-    //map coresponidng LED individually 
-    assign led[0] = slv_reg0[0];
-    assign led[1] = slv_reg0[1];
-    assign led[2] = slv_reg0[2];
-    assign led[3] = slv_reg0[3];
-    assign led[4] = slv_reg0[4];
-    assign led[5] = slv_reg0[5];
+	//RGB LED Bonus
+	assign led = slv_reg0[5:0];
+	//map coresponidng LED individually 
+	//4 non-rgb LED's
+	//2 rgb LED's
+	assign led[0] = slv_reg0[0] & slv_reg1[0];
+	assign led[1] = slv_reg0[1] & slv_reg1[1];
+	assign led[2] = slv_reg0[2] & slv_reg1[2];
+	assign led[3] = slv_reg0[3] & slv_reg1[3];
+	assign led[4] = slv_reg0[4] & slv_reg1[3];
+	assign led[5] = slv_reg0[5] & slv_reg1[5];
 	// User logic ends
 
 	endmodule
