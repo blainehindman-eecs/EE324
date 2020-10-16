@@ -1,5 +1,5 @@
 # Project 3 - The AXI4 Bus
-Videos of File labled as ".mov"
+Videos of File labled as ".MOV"
 
 
 Part 1-  Demonstrate AXI4-Lite Read/Write Transaction at Runtime (Complete Correspondingly To My Code)
