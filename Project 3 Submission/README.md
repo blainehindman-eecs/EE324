@@ -1,17 +1,15 @@
-# Project 2 - Creating custom IP for ZYNQ's processing system
+# Project 3 - The AXI4 Bus
+Videos of File labled as ".mov"
 
-Verilog Assign 1-4: "output wire [3:0] led,"
 
-Verilog Assign Bonus: "output wire [5:0] led,"
+Part 1-  Demonstrate AXI4-Lite Read/Write Transaction at Runtime (Complete Correspondingly To My Code)
 
-YouTube Link - https://youtu.be/3kxUPH9nCcM
+Part 2- Create your own AXI4-Lite Logic (Incomplete)
 
-Part 1- Verify the demo project
+Part 3- Simulate an AXI IP cores AXI4-Lite Write Transaction (Complete With Given Code)
 
-Part 2- Display diffrent blinking patter with a shifting the LED's
+Part 4- Simulate myled IP’s AXI4-Lite Interface’s Read Transaction (Incomplete)
 
-Part 3- Uses the required read function along with adding functions of my own
+Part 5- Create a new IP named myswitches_buttons and use it to trigger the LEDs (Incomplete)
 
-Part 4- Seperately enabled LED's then displayed demo blinking pattern with longer delay in my own delay function
-
-Part 5 (bonus) - Enabled led's 0-5, which includes 2 rgb LED's and one with red, and one with white
+Part 6 (bonus) - Debug the myswitches_buttons IP and my_LED IP Transaction during runtime (Incomplete)
